@@ -1,0 +1,12 @@
+[import](common.lg)
+
+# SendActivity_0ZGCK4()
+[Activity
+    Text = ${SendActivity_0ZGCK4_text()}
+]
+
+# SendActivity_0ZGCK4_text()
+- ```Bugünün kampanları
+ \- Televizyon
+ \- Buzdolabı
+ \- Çamaşır Makinası```

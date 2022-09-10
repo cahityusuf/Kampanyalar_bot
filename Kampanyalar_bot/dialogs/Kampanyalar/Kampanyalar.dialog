@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "3rKyJI",
+    "name": "Kampanyalar",
+    "comment": "Kapmanyaları listeler"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "p4Auu6"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "0ZGCK4"
+          },
+          "activity": "${SendActivity_0ZGCK4()}"
+        }
+      ]
+    }
+  ],
+  "generator": "Kampanyalar.lg",
+  "recognizer": "Kampanyalar.lu.qna",
+  "id": "Kampanyalar"
+}
